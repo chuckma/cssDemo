@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+ *{padding: 0;margin: 0;}
+        #container1 {
+            float: left;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            background-color: #dbddbb;
+        }
+        #container {
+            background-color: orange;
+            width: 100%;
+            float: left;
+            position: relative;
+            left: 220px;
+        }
+        #left {            
+            float: left;
+            margin-right: -100%;
+            margin-left: -220px;
+            width: 220px;
+        }
+        #content {
+            float: left;
+            width: 100%;
+            margin-left: -220px;
+        }
+        #contentInner {            
+            margin-left: 220px;
+            overflow: hidden;
+        }
+        
+        #left,
+        #content {
+                min-height: 200px;
+                height: auto !important;
+                height: 200px;
+        }
